@@ -1,0 +1,31 @@
+DOCKER
+
+16) --> docker build -t app .
+    --> docker images
+    --> docker run app
+
+19) --> docker build -t app . (in jenkins) (no pollSCM)
+
+12) mvn --version
+    mvn archetype:generate
+    mvn clean test   
+14)open target->site->jacoco->index.html
+
+  
+13)commands in github for git bash
+
+15) docker run hello-world
+    docker ps
+    docker pull nginx
+    docker run -d -p 8081:80 nginx
+    docker images
+    docker ps
+    docker ps -a
+    docker stop <id>
+    docker rm <id>
+    docker rmi -f <image>
+-> Run Container in Background
+    docker run -d nginx
+-> Port Mapping Example
+    docker run -d -p 8081:80 nginx
+  ✔ Access in browser:http://localhost:8081
